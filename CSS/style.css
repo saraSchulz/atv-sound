@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*===========================================================
+                         GERAL                              
+=============================================================*/
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 1vw);
+}
+a{
+    color: black; 
+    text-decoration: none;
+}
+main{
+	margin: 0 15vw 0 15vw;
+}
+/*===========================================================
+                         TOPO                          
+=============================================================*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 0 2vw 0;
+}
+header nav p img{
+    margin: 0 2vw 0 2vw;
+}
+header nav ul{
+    display: flex;
+    justify-content: right;
+    margin: 0 3vw 0 3vw;
+    
+}
+header nav ul li a{
+    color: #553C16;
+    margin: 0 2vw 0 2vw ;
+    
+}
+/*===========================================================
+                            CONTEUDO                       
+=============================================================*/
+section.conteudo{
+    display: flex;
+    margin: 2vw 2vw 2vw 2vw;
+    border-bottom: 3px solid rgb(196, 196, 196);
+}
+section.conteudo h1{
+    margin: 5vw 3vw 5vw 3vw;
+    font-size: 2rem;
+    border-bottom: 2px solid gainsboro 
+}
+section.conteudo div.maior{
+    margin: 4vw 3vw 2vw 3vw ;
+    
+}
+section.conteudo p.text {
+    margin: 2vw 2vw 2vw 2vw;
+    color: #404852;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section.conteudo ul{
+    display: flex;
+    margin: 2vw 2vw 2vw 2vw;
+
+}
+section.conteudo ul li p{
+    margin: 2px 1vw 0 1vw ;
+}
+section.conteudo ul li p.cinza{
+    color: #2C3A4B;
+}
+/*===========================================================
+                         LISTAS                   
+=============================================================*/
+section.lista{
+    display: flex;
+}
+section.lista h2{
+    font-size: 2rem;
+    margin: 2vw 2vw 2vw 2vw;
+}
+section.lista p{
+    margin: 1vw 1vw 1vw 2vw;
+    color: #404852;
+}
+section.lista ul li h3{
+    font-size: 1.5rem;
+}
+section.lista ul li h3 span{
+    font-size: 1rem;
+    color: rgb(173, 173, 173);
+    
+}
