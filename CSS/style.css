@@ -104,15 +104,15 @@ section.conteudo p.text {
     color: #404852;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-section.conteudo ul{
+section.conteudo div.maior div.samantha{
     display: flex;
     margin: 2vw 2vw 2vw 2vw;
 
 }
-section.conteudo ul li p{
+section.conteudo div.maior div.samantha div.menor p{
     margin: 2px 1vw 0 1vw ;
 }
-section.conteudo ul li p.cinza{
+section.conteudo div.maior div.samantha div.menor p.cinza{
     color: #2C3A4B;
 }
 /*===========================================================
@@ -120,6 +120,7 @@ section.conteudo ul li p.cinza{
 =============================================================*/
 section.lista{
     display: flex;
+    border-bottom:2px solid gainsboro;
 }
 section.lista h2{
     font-size: 2rem;
@@ -129,11 +130,41 @@ section.lista p{
     margin: 1vw 1vw 1vw 2vw;
     color: #404852;
 }
+section.lista ul li{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 0 10px 0;
+}
+section.lista ul li.unica{
+    border-bottom: 0;
+}
 section.lista ul li h3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    margin: 3vw;
 }
 section.lista ul li h3 span{
     font-size: 1rem;
-    color: rgb(173, 173, 173);
     
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(173, 173, 173);
+}
+section.lista ul li p.grey{
+    color: #74777a ;
+    text-align: center;
+}/*===========================================================
+                         FOOTER              
+=============================================================*/
+footer{
+    padding: 4vw;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer ul li{ 
+    margin: 1.2vw;
+}
+
+footer p{
+    text-align: center;
 }
